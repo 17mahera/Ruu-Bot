@@ -11,6 +11,7 @@ client.on('ready', () => {
 });
 
 
+<<<<<<< HEAD
 bot.on('message', message => { // when message is sent
     if (message.content ===("<>")){ // when message is !bot
         message.channel.sendMessage("Shinies!"); // send running message into the channel where the message was sent
@@ -60,3 +61,6 @@ client.on('message', (message) => {
 });
 
 client.login(process.env.BOT_TOKEN);
+=======
+client.login(process.env.BOT_TOKEN)
+>>>>>>> parent of 0c294b7... First test command
