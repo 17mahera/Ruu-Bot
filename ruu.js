@@ -1,5 +1,5 @@
 // Requires
-const Discord = require('discord.js');
+const Discord = require('https://github.com/hydrabolt/discord.js');
 const fs = require('fs');
 
 // Create an instance of a Discord client
