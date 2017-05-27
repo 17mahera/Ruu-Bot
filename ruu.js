@@ -43,7 +43,7 @@ client.on('message', (message) => {
   config.prefix = newPrefix;
 
   // Now we have to save the file.
-  fs.writeFile('./config.json', JSON.stringify(config), (err) => if(err) console.error(err));
+  fs.writeFile('./config.json', JSON.stringify(config),if(err)console.error(err));
   }
   else if(message.content.startsWith(config.prefix + 'waifu'))
   {
